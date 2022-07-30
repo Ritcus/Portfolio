@@ -1,0 +1,14 @@
+.footerjs{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 60px;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerjs h6{
+    display: block;
+    text-align: center;
+}

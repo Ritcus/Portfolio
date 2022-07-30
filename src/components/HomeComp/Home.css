@@ -1,0 +1,387 @@
+html{
+    font-size: 100%;
+   scroll-behavior: smooth;
+   
+  }
+
+  body{
+    overflow: hidden;
+  }
+
+  
+  
+  @media only screen and (max-width: 460px){
+  html {
+      font-size: 90%;
+  }
+  .iabc-bg{
+
+    height: 60%;
+
+  }
+    
+  }
+  
+  @media only screen and (max-width: 320px){
+  html {
+      font-size: 80%;
+
+  }
+    
+  
+  }
+  .maincontainer{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 10px;
+    padding:20px;
+    font-family: 'Rubik Wet Paint', cursive;
+    backdrop-filter: blur(8px);
+    }
+  
+  .theleft{
+      flex:1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+  
+    .theleftwrapper{
+      padding: 50px;
+      display: flex;
+      
+      flex-direction: column;
+      justify-content: space-between;
+      
+    }
+  
+    .title{
+      height: 50px;
+      overflow:hidden;
+      margin-left: 3%;
+      width: 100%;
+    }
+  
+    .item{
+      height: 50px;
+      font-size: 30px;
+      font-weight: bold;
+      color: green;
+      display: flex;
+      align-items: center;
+    }
+
+    
+   
+  
+  .theright{
+      flex: 1;
+      position:relative;
+    
+    }
+  
+    
+  .i-bg{
+    clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    background-color: lightgreen ;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    right:0;
+  }
+ 
+  
+  .personalName{
+    font-weight: bold;
+    margin-top: 50px;
+    animation: nameAnimation 3s ease-in-out infinite  ;
+      
+  }
+
+  @keyframes nameAnimation {
+    0% {color: rgb(58, 240, 58)}
+    25% {color: aqua}
+    50% {color: greenyellow}
+    100% {color: burlywood}
+}
+  
+  
+  .personalName2{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    
+    
+  }
+  
+  .big-screen{
+    display: none;
+  }
+  
+  @media only screen and (max-width: 982px ){
+    .big-screen{
+      display: block;
+      overflow:hidden;
+      margin-left: 3%;
+      font-size: 20px;
+      margin-left: 10px;
+      font-weight: bold;
+      color: green;
+      
+    }
+  }
+
+  @media only screen and (max-width: 960px) {
+    .leftdescription{
+      font-size: smaller;
+    }
+
+  }
+  
+  @media only screen and (max-width: 982px){
+    .title{
+      display: none;
+    }
+  }
+  
+  
+  
+  .line{
+      border-top: 5px solid dodgerblue;
+      margin-left: 3%;
+      width: 80%;
+      
+  }
+  
+  
+  
+  .title-wrapper{
+    height:100%;
+    animation: move 10s ease-in-out infinite alternate
+  }
+  
+  
+  
+  @keyframes move{
+    
+    33%{
+      transform: translateY(-50px);
+    }
+    66%{
+      transform: translateY(-100px);
+    }
+    100%{
+      transform: translateY(-150px);
+    }
+  }
+  
+  
+  .imgright{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+    position: absolute;
+  }
+  
+  .imgrightdown{
+    margin-top: 40vh;
+    height: auto;
+    max-width: 100%;
+    margin-left: 10%;
+    animation: anime 8s ease-in infinite;
+    
+  }
+
+  @keyframes anime{
+    0%{margin-top: 40vh;
+
+    }
+    50%{
+      margin-top: 0vh;
+    }
+    100%{
+      margin-top: 40vh;
+    }
+  }
+
+ 
+  
+ 
+  
+  .therightdown{
+    flex: 1;
+    
+  }
+  
+  @media (max-width: 800px ) {
+    .secondcontainer{
+      margin-bottom: 20vh;
+    }
+
+  }
+  
+  .secondcontainer{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    height: 65vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    backdrop-filter: blur(15px);
+    
+  }
+  
+  .thirdcontainer{
+    height: auto;
+    width: auto;
+    display: flex;
+    backdrop-filter: blur(8px);
+  }
+
+  .thirdcontainer h1{
+    text-align: center;
+    margin: 15px 0 2rem 0 ;
+    font-family: 'Rubik Wet Paint', cursive;
+    color: #27ae60;
+  }
+
+  .gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #27ae60;
+    bottom:70px;
+    right: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+  }
+
+  .aVai a{
+    position: fixed;
+    padding: 20px 40px;
+    display:flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 20px;
+    overflow: hidden;
+    border-radius: 40px;
+    bottom:40%;
+    right:20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aVai span{
+    
+    position: relative;
+    color: #fff;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 8px;
+    z-index: 1;
+  }
+
+  .aVai .liquid{
+    position: absolute;
+    top: -80px;
+    left:0;
+    width: 200px;
+    height: 200px;
+    background: green;
+    box-shadow: inset 0 0 50px rgb(92, 11, 158);
+    transition: .5s;
+  }
+
+  .liquid::after,
+  .liquid::before{
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top:0;
+    left: 20%;
+    transform: translate(-50%,-75%);
+    background: #000;
+  }
+
+  .liquid::before{
+    border-radius: 45%;
+    background: rgba(20, 20, 20, 1);
+    animation: ani 5s linear infinite;
+  }
+
+  .liquid ::after{
+    border-radius: 40%;
+    background: rgba(20, 20, 20, .5);
+    animation: ani 10s linear infinite;
+  }
+
+  .aVai a:hover .liquid{
+    top:-120px;
+    display: block;
+
+  }
+
+  @keyframes ani{
+    0% {
+      transform: translate(-50%,-75%) rotate(0deg);
+    }
+
+    100% {
+      transform: translate(-50%,-75%) rotate(360deg);
+    }
+  }
+
+  .needhelp{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+    bottom:40%;
+    right:100px;
+    float: left;
+    color: white;
+    font-size: 12px;
+    display: none;
+  }
+
+  .needhelp span{
+    color: white;
+    font-size: 12px;
+    position: relative;
+
+  }
+
+  .aVai #content{
+    all: unset;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkgreen;
+  }
+
+
+  .tippy-box[data-theme~="custom"] {
+    background-color: #f7f7f7;
+    color: #f7f7f7;
+    border: 3px solid black;
+    border-radius: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+ 
+
+
+
+  
+  

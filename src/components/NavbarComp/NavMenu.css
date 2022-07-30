@@ -1,0 +1,81 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+.navbar{
+  background-color: black;
+}
+
+html{
+  font-size: 100%;
+}
+
+
+@media (max-width: 770px){
+html {
+    font-size: 60%;
+}
+
+.changu{
+  display: none;
+}
+}
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+
+.logo {
+  font-weight: 600;
+  font-size: 10px;
+  color: tomato;
+  font-family: cursive;
+}
+
+.logo font {
+  color: #fff;
+  
+}
+
+.navbar-toggler{
+  background-color: white !important
+
+}
+
+.changu{
+  margin-right: 35px;
+}
+
+.navbar-nav{
+  
+  
+}
+
+.navbar-nav a:hover{
+  background-color: chartreuse;
+  border-radius: 2px;
+  color:black !important;
+  transition: all 0.2s ease-in-out
+}
+
+
+.social{
+  border-radius: 2px;
+}
+
+.nav-element{
+  
+  color: aqua;
+  
+
+}
+
+.active{
+  text-decoration: underline;
+  background-color: chartreuse;
+  font-weight: bold;
+  
+ 
+}
+

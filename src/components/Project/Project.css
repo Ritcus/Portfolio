@@ -1,0 +1,136 @@
+
+.projectMain{
+
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.projectInclose{
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border:1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 10px 33px 0px rgba(0, 0, 0, 0.75);
+    
+}
+
+.headings{
+    all:unset;
+    display: block;
+    color: aqua;
+    align-self: unset !important;
+    align-items: flex-start !important;
+    justify-self: flex-start !important;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.headings span{
+    margin: 0;
+}
+
+.projectDescp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik Wet Paint', cursive;
+    align-self: flex-start ;
+
+
+}
+.projectMain p{
+    color: green;
+}
+
+.sliders {
+    margin-left: 15%;
+    margin-bottom: 5%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.abut{
+    margin-left: 30px;
+}
+
+.alink{
+    margin-top: 10px;
+    text-decoration: underline;
+    font-size: large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: burlywood;
+}
+
+.alink:hover{
+    color: chartreuse;
+}
+
+.loading{
+    margin-top: 3rem;
+    font-family:'Rubik Wet Paint', cursive;
+    color: chartreuse;
+    font-size: larger !important;
+    font-weight: bolder !important;
+}
+
+.spinnered{
+    display: inline-block;
+    margin: 2rem auto;
+    align-self: center !important;
+    color: chartreuse !important;
+
+    
+}
+
+.progress-bar{
+    
+    width: 360px;
+    height: 12px;
+    background-color: white !important;
+    margin: auto;
+    opacity: .8;
+    position:relative;
+    
+  }
+
+  .progress-bar::before {
+    content: "dasdasdasdasdasd";
+    position:absolute;
+    left: 0;
+    font-size: 12px;
+    bottom: -18px;
+  }
+
+  .progress-bar::after{
+    content: "100%";
+    position:absolute;
+    right: 0;
+    font-size: 12px;
+    bottom: -18px;
+  }
+
+  .progress-bar span{
+    display: block;
+    width: 80%;
+    height: 12px;
+    background-color: darkgreen;
+    animation: filler 15s ease-in-out infinite ;
+  }
+
+  @keyframes filler{
+    from{
+      width: 0;
+    }
+    to{
+      width: 80%;
+    }
+  
+  }
