@@ -1,14 +1,15 @@
-import React from 'react'
+import React from "react";
 
-import './Expertise.css'
+import "./Expertise.css";
 
 export default function Expertise() {
   return (
-    <div className='myexpertise'>
-        <h2><span>M</span>
+    <div className="myexpertise">
+      <h2>
+        <span>M</span>
         <span>y</span>
         <span>E</span>
-        <span>x</span> 
+        <span>x</span>
         <span>p</span>
         <span>e</span>
         <span>r</span>
@@ -16,8 +17,7 @@ export default function Expertise() {
         <span>i</span>
         <span>s</span>
         <span>e</span>
-        </h2>
-        </div>
-
-  )
+      </h2>
+    </div>
+  );
 }

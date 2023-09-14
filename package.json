@@ -1,6 +1,7 @@
 {
-  "name": "portfolioprojectapp",
+  "name": "rikki-gautam-portfolio",
   "version": "0.1.0",
+  "homepage": "https://rikkigautam.com/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
@@ -39,7 +40,7 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "eact-scripts --openssl-legacy-provider build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "cross-env CI=true react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "eslint ./src/"

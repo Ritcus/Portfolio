@@ -1,77 +1,76 @@
-html,body{
-    margin: 0px;
-    padding: 0px;
-    
+html,
+body {
+  margin: 0px;
+  padding: 0px;
 }
-.boxes{
-    margin: 30px;
-    margin-top: 150px;
-    margin-left: 5% !important;
-    background-color: rgb(58, 240, 58);
-    height: auto;
-    max-height: auto;
-    box-shadow:0px 12px 18px -6px rgba(0, 0, 0, 0.3) ;
-    border-radius: 10px 10px 10px 10px;
-    font-family: 'Rubik Wet Paint', cursive;
-}
-
-.boxes:nth-child(odd){
-    background-color: aqua;
-    animation: slide 5s;
+.boxes {
+  margin: 30px;
+  margin-top: 150px;
+  margin-left: 5% !important;
+  background-color: rgb(58, 240, 58);
+  height: auto;
+  max-height: auto;
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px 10px 10px 10px;
+  font-family: "Rubik Wet Paint", cursive;
 }
 
-.heading:nth-child(1){
-    animation: slideIn 4s ;
+.boxes:nth-child(odd) {
+  background-color: aqua;
+  animation: slide 5s;
 }
 
-.firstnSecond{
-    animation: firstSlide 4s ;
+.heading:nth-child(1) {
+  animation: slideIn 4s;
 }
 
-@keyframes firstSlide{
-    0% {
-        transform: rotate(360deg) translateX(1000px);
-    }
-    100% {
-        transform: rotate(0deg);
-    }
+.firstnSecond {
+  animation: firstSlide 4s;
 }
 
+@keyframes firstSlide {
+  0% {
+    transform: rotate(360deg) translateX(1000px);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 
-@keyframes slideIn{
-    0% {
-        transform: skewX(360deg) translateX(-1000px);
-    }
-    100% {
-        transform: skew(0deg);
-    }
-   
+@keyframes slideIn {
+  0% {
+    transform: skewX(360deg) translateX(-1000px);
+  }
+  100% {
+    transform: skew(0deg);
+  }
 }
 
 @keyframes slide {
-    from {background-color: rgb(58, 240, 58);}
-    to {background-color: aqua;}
+  from {
+    background-color: rgb(58, 240, 58);
+  }
+  to {
+    background-color: aqua;
+  }
 }
 
-
-
 .grids {
-    max-width:80% ;
-    margin: auto;
-    overflow: hidden;
+  max-width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
 .ml-2.mr-2.container {
-    all: unset;
+  all: unset;
 }
 
-.resumeLink{
-    color: chartreuse;
-    text-align: center;
+.resumeLink {
+  color: chartreuse;
+  text-align: center;
 }
 
 .resumeLink a {
-    color: aqua;
-    text-decoration: underline;
+  color: aqua;
+  text-decoration: underline;
 }
-

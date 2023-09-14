@@ -1,83 +1,76 @@
 .myexpertise h2 {
-    margin:0;
-    padding: 0;
-    color: lightcoral;
-    font-size: 6em;
-    font-weight: bolder;
+  margin: 0;
+  padding: 0;
+  color: lightcoral;
+  font-size: 6em;
+  font-weight: bolder;
 }
 
-@media (max-width: 800px ) {
-    .myexpertise h2{
-        font-size: 4em;
-        
-    }
+@media (max-width: 800px) {
+  .myexpertise h2 {
+    font-size: 4em;
+  }
 }
 
-.myexpertise h2 span:nth-child(1){
-    font-family: Arial, Helvetica, sans-serif;
+.myexpertise h2 span:nth-child(1) {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
-.myexpertise h2 span{
-    display: table-cell;
-    margin: 0;
-    padding: 0;
-    animation: animei 2.75s linear infinite;
+.myexpertise h2 span {
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+  animation: animei 2.75s linear infinite;
 }
 
-.myexpertise h2 span:nth-child(1){
-    animation-delay: 0s;
+.myexpertise h2 span:nth-child(1) {
+  animation-delay: 0s;
 }
 
-.myexpertise h2 span:nth-child(2){
-    animation-delay: 0.25s;
+.myexpertise h2 span:nth-child(2) {
+  animation-delay: 0.25s;
 }
-.myexpertise h2 span:nth-child(3){
-    animation-delay: 0.5s;
+.myexpertise h2 span:nth-child(3) {
+  animation-delay: 0.5s;
 }
-.myexpertise h2 span:nth-child(4){
-    animation-delay: 0.75s;
+.myexpertise h2 span:nth-child(4) {
+  animation-delay: 0.75s;
 }
-.myexpertise h2 span:nth-child(5){
-    animation-delay: 1s;
+.myexpertise h2 span:nth-child(5) {
+  animation-delay: 1s;
 }
-.myexpertise h2 span:nth-child(6){
-    animation-delay: 1.25s;
+.myexpertise h2 span:nth-child(6) {
+  animation-delay: 1.25s;
 }
-.myexpertise h2 span:nth-child(7){
-    animation-delay: 1.5s;
+.myexpertise h2 span:nth-child(7) {
+  animation-delay: 1.5s;
 }
-.myexpertise h2 span:nth-child(8){
-    animation-delay: 1.75s;
+.myexpertise h2 span:nth-child(8) {
+  animation-delay: 1.75s;
 }
-.myexpertise h2 span:nth-child(9){
-    animation-delay: 2s;
+.myexpertise h2 span:nth-child(9) {
+  animation-delay: 2s;
 }
-.myexpertise h2 span:nth-child(10){
-    animation-delay: 2.25s;
+.myexpertise h2 span:nth-child(10) {
+  animation-delay: 2.25s;
 }
-.myexpertise h2 span:nth-child(11){
-    animation-delay: 2.50s;
+.myexpertise h2 span:nth-child(11) {
+  animation-delay: 2.5s;
 }
 
-
-@keyframes animei{
-    0%, 100% {
-        color: red;
-        filter: blur(1px);
-        text-shadow: 0 0 10px #00b3ff,
-        0 0 20px #00b3ff,
-        0 0 40px #00b3ff,
-        0 0 80px #00b3ff,
-        0 0 120px #00b3ff,
-        0 0 200px #00b3ff,
-        0 0 300px #00b3ff,
-        0 0 400px #00b3ff,
-    }
-    5%, 95% {
-        color: white;
-        filter: blur(0px);
-        text-shadow: 0 0 10px none,
-    }
-
+@keyframes animei {
+  0%,
+  100% {
+    color: red;
+    filter: blur(1px);
+    text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff,
+      0 0 80px #00b3ff, 0 0 120px #00b3ff, 0 0 200px #00b3ff, 0 0 300px #00b3ff,
+      0 0 400px #00b3ff;
+  }
+  5%,
+  95% {
+    color: white;
+    filter: blur(0px);
+    text-shadow: 0 0 10px none;
+  }
 }

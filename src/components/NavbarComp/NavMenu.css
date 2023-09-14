@@ -3,28 +3,26 @@
   text-align: center;
   word-break: break-all;
 }
-.navbar{
+.navbar {
   background-color: black;
 }
 
-html{
+html {
   font-size: 100%;
 }
 
-
-@media (max-width: 770px){
-html {
+@media (max-width: 770px) {
+  html {
     font-size: 60%;
-}
+  }
 
-.changu{
-  display: none;
-}
+  .changu {
+    display: none;
+  }
 }
 .box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
 }
-
 
 .logo {
   font-weight: 600;
@@ -35,47 +33,33 @@ html {
 
 .logo font {
   color: #fff;
-  
 }
 
-.navbar-toggler{
-  background-color: white !important
-
+.navbar-toggler {
+  background-color: white !important;
 }
 
-.changu{
+.changu {
   margin-right: 35px;
 }
 
-.navbar-nav{
-  
-  
-}
-
-.navbar-nav a:hover{
+.navbar-nav a:hover {
   background-color: chartreuse;
   border-radius: 2px;
-  color:black !important;
-  transition: all 0.2s ease-in-out
+  color: black !important;
+  transition: all 0.2s ease-in-out;
 }
 
-
-.social{
+.social {
   border-radius: 2px;
 }
 
-.nav-element{
-  
+.nav-element {
   color: aqua;
-  
-
 }
 
-.active{
+.active {
   text-decoration: underline;
   background-color: chartreuse;
   font-weight: bold;
-  
- 
 }
-

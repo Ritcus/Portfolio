@@ -17,5 +17,5 @@ export default [
     title: "Third Slide",
     description: "This is the Third slider Image of our carousel",
     urls: Third,
-  }
+  },
 ];

@@ -1,165 +1,155 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-  }
-  
-  :root {
-    --heights: 40vh;
-    --widths: 100%;
-  }
-  
-  .slider-container {
-    height: var(--heights);
-    width: var(--widths);
-    position: relative;
-    margin: auto;
-    overflow: hidden;
-  }
+  box-sizing: border-box;
+  margin: 0;
+}
 
-  .slider-container:hover{
-    cursor: pointer;
+:root {
+  --heights: 40vh;
+  --widths: 100%;
+}
 
-  }
+.slider-container {
+  height: var(--heights);
+  width: var(--widths);
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
 
-  @media (min-width:1015px) {
+.slider-container:hover {
+  cursor: pointer;
+}
 
-    .slider-container2 {
-    height:70vh;
+@media (min-width: 1015px) {
+  .slider-container2 {
+    height: 70vh;
   }
 }
 
-
-  .slider-container2 {
-
-    width: 100%;
-    position: relative;
-    margin: auto;
-    overflow: hidden;
-  }
-
-
-  .slide-image2 {
-   height: 100%;
-   width: 100%;
-    
-  }
-
-  .slides2{
-    height: 100%;
-   width: 100%;
+.slider-container2 {
+  width: 100%;
   position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slide-image2 {
+  height: 100%;
+  width: 100%;
+}
+
+.slides2 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.active {
+  display: inline-block;
+}
+
+.inactive {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .slide-image {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    background-color: burlywood;
   }
 
-  .active {
-    display: inline-block;
-  }
-  
-  .inactive {
-    display: none;
-  }
-
-  @media (max-width: 1024px) {
-    .slide-image{
-      width: 100%;
-      height: 100%;
-      object-fit: scale-down;
-      background-color: burlywood;
-    }
-
-    .prev,
+  .prev,
   .next {
-    top:60%;
+    top: 60%;
   }
-    
-  }
-  
-  .slides {
-    height: var(--heights);
-    width: var(--widths);
-    position: relative;
+}
 
-  }
+.slides {
+  height: var(--heights);
+  width: var(--widths);
+  position: relative;
+}
 
-  @media (min-width: 1024px) {
-  
+@media (min-width: 1024px) {
   .slide-image {
     width: 100%;
     height: 100%;
     position: absolute;
     object-fit: cover;
-    
   }
 
   .prev,
   .next {
-    top:50%;
+    top: 50%;
   }
 }
-  
-  .slide-title,
-  .slide-text {
-    width: 100%;
-    height: 100%;
-    color: white;
-    font-size: 50px;
-    position: absolute;
-    text-align: center;
-    top: 40%;
-    z-index: 10;
-  }
-  
-  .slide-text {
-    top: 65%;
-    font-size: 2rem;
-  }
-  
-  .prev,
-  .next {
-    cursor: pointer;
-    z-index: 100;
-    position: absolute;
-    
-    width: auto;
-    padding: .5rem;
-    margin-top: -3rem;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 0px 5px 5px 0px;
-  }
-  
-  .prev:hover,
-  .next:hover {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.6);
-    transition: all 0.5s ease-in;
-  }
-  
-  .next {
-    right: 0;
-    border-radius: 5px 0px 0px 5px;
-  }
-  
-  .all-dots {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    display: flex;
-    top: 90%;
-    justify-content: center;
-    z-index: 200;
-  }
-  
-  .dot {
-    cursor: pointer;
-    height: .5rem;
-    width: .5rem;
-    margin: 0px 3px;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 50%;
-    display: inline-block;
-  }
-  
-  .active-dot,
-  .dot:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-  }
+
+.slide-title,
+.slide-text {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  z-index: 10;
+}
+
+.slide-text {
+  top: 65%;
+  font-size: 2rem;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  z-index: 100;
+  position: absolute;
+
+  width: auto;
+  padding: 0.5rem;
+  margin-top: -3rem;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.prev:hover,
+.next:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all 0.5s ease-in;
+}
+
+.next {
+  right: 0;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.all-dots {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  top: 90%;
+  justify-content: center;
+  z-index: 200;
+}
+
+.dot {
+  cursor: pointer;
+  height: 0.5rem;
+  width: 0.5rem;
+  margin: 0px 3px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active-dot,
+.dot:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}

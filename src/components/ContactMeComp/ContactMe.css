@@ -1,310 +1,272 @@
-.contactmeinfo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    
+.contactmeinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
 }
 
-.showelement{
-    color: green;
+.showelement {
+  color: green;
 }
 
-
-.contactmeinfo h1{
-    text-align: center;
-    color: yellow;
-    font-size: 3rem;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+.contactmeinfo h1 {
+  text-align: center;
+  color: yellow;
+  font-size: 3rem;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
-p.sub-title{
-    color: white;
-    text-align: center;
-    font-size: 1.5rem;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+p.sub-title {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 @media only screen and (max-width: 800px) {
+  .contactmeinfo {
+    margin-top: 50px;
+  }
+  .col {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+  }
+  .contact-container {
+    height: auto;
+    margin-top: 40px;
+  }
+  .map {
+    margin-top: 50vh;
+  }
 
-    .contactmeinfo{
-        margin-top: 50px;
-    }
-    .col{
-        width: 100%;
-        display: block;
-        overflow: hidden;
-       
-    }
-    .contact-container{
-        height: auto;
-        margin-top: 40px;
-
-    }
-    .map{
-        margin-top: 50vh;
-    }
-
-    .contactmeinfo h1{
-        margin-top: 50vh;
-    }
-
+  .contactmeinfo h1 {
+    margin-top: 50vh;
+  }
 }
 
 @media only screen and (min-width: 800px) {
-    .contact-container form .col{
-        display: flex;
-        width: 100%;
-        flex: 0 0 100%;
-    }
-
-    .contact-container{
-        margin-top: 40px;
-        display: flex;
-    }
-}
-    
-
-
-
-
-.contact-container{
-    backdrop-filter: blur(15px);
-    width:auto;
-    border-radius: 15px;
-    
-    padding: 10px;
-    
-    border:1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0px 10px 33px 0px rgba(0, 0, 0, 0.75);
-    
-}
-.contact-container .contact-info{
-    background-color: #5904c2 ;
-    flex:0 1 40%;
-    border-radius: 15px;
-    padding:40px ;
-    color:white;
+  .contact-container form .col {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-}
-.h4{
-    font-size: 2rem;
-    font-weight: 500;
-    
-}
-
-
-.icon-text{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.icon-text .iconfe{
-    flex: 0 1 20px;
-    font-size: 1.8rem;
-    margin-right: 2rem;
-    
-   
-}
-.icon-text span{
-    font-size:1.2rem;
-    font-weight: 300;
-    
-}
-
-.icon-text p{
-    color: rgba(255, 255, 255, 7);
-    font-size: 1.5rem;
-    font-weight: 300;
-    margin-bottom: 2rem;
-}
-
-
-
-.social-media{
-    display: flex;
-    width: 50%;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-left: 25%;
-
-}
-
-.social-media .icon-circle{
-    color: white;
-    display: flex;
-    flex: 0 1 30px;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
-    border-radius: 50%;
-    transition: .3s all ease-in-out;
-
-}
-.social-media .icon-circle:hover{
-    background:#05f7ff;
-}
-
-
-
-.contact-container form {
-    padding: 40px;
     width: 100%;
-
-}
-
-.form-group{
-    
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    flex: 0 1 100%;
-    padding-right: 40px;
-}
-
-
-.form-group label{
-    font-size:0.9;
-    color: rgba(255, 255, 255, .4);
-    margin-bottom: 1rem;
-}
-
-.form-group:nth-child(2){
-    padding-right: 0;
-}
-
-.form-group input[type="text"]
-{
-    cursor: text;
-    color: white;
-    background:transparent;
-    border:none;
-    border-bottom:2px solid rgba(255, 255, 255, .4);
-    padding:5px;
-    font-size: 1rem;
-    font-weight: 300 ;
-    margin-bottom: 2rem ;
-
-}
-
-.form-group input[type="number"]{
-    cursor: text;
-    color: white;
-    background:transparent;
-    border:none;
-    border-bottom:2px solid rgba(255, 255, 255, .4);
-    padding:5px;
-    font-size: 1rem;
-    font-weight: 300 ;
-    margin-bottom: 2rem ;
-
-}
-
-.form-group textarea{
-    cursor: text;
-    color: white;
-    background:transparent;
-    border:none;
-    border-bottom:2px solid rgba(255, 255, 255, .4);
-    padding:5px;
-    font-size: 1rem;
-    font-weight: 300 ;
-    margin-bottom: 2rem ;
-
-}
-
-
-.form-group input[type="email"]{
-    cursor: text;
-    color: white;
-    background:transparent;
-    border:none;
-    border-bottom:2px solid rgba(255, 255, 255, .4);
-    padding:5px;
-    font-size: 1rem;
-    font-weight: 300 ;
-    margin-bottom: 2rem ;
-
-}
-.submitbtn{
-    justify-content: center;
-    align-content: center;
-    display: flex;
-    flex: auto;
-}
-
-.col button{
-    background-color: #5904c2;
-    color: white;
-    font-weight: 300;
-    font-size: 1.5rem;
-    border:2px solid white;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.form-group input[type="text"]:focus
-{
-    border:none ;
-    outline: none;
-    border-bottom: 2px solid #05f7ff;
-}
-.form-group input[type="number"]:focus{
-    border:none ;
-    outline: none ;
-    border-bottom: 2px solid #05f7ff ;
-}
-
-input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
+    flex: 0 0 100%;
   }
 
-
-.form-group input[type="email"]:focus{
-    border:none ;
-    outline: none;
-    border-bottom: 2px solid #05f7ff;
-}
-.form-group textarea:focus{
-    border:none ;
-    outline: none;
-    border-bottom: 2px solid #05f7ff;
-}
-
-.map{
+  .contact-container {
+    margin-top: 40px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #05f7ff;
-    height: 100vh;
-
+  }
 }
 
+.contact-container {
+  backdrop-filter: blur(15px);
+  width: auto;
+  border-radius: 15px;
 
-.find{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: yellow;
-    font-size: 3rem;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+  padding: 10px;
 
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 10px 33px 0px rgba(0, 0, 0, 0.75);
+}
+.contact-container .contact-info {
+  background-color: #5904c2;
+  flex: 0 1 40%;
+  border-radius: 15px;
+  padding: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.h4 {
+  font-size: 2rem;
+  font-weight: 500;
 }
 
-.googlemap{
-    display: flex;
-    border: 10px solid purple;
-    height: 70%;
-    width: 70%;
-    margin-top: 2%;
-    padding: 2px;
-    border-radius: 15px;
+.icon-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 
+.icon-text .iconfe {
+  flex: 0 1 20px;
+  font-size: 1.8rem;
+  margin-right: 2rem;
+}
+.icon-text span {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.icon-text p {
+  color: rgba(255, 255, 255, 7);
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.social-media {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 25%;
+}
+
+.social-media .icon-circle {
+  color: white;
+  display: flex;
+  flex: 0 1 30px;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  border-radius: 50%;
+  transition: 0.3s all ease-in-out;
+}
+.social-media .icon-circle:hover {
+  background: #05f7ff;
+}
+
+.contact-container form {
+  padding: 40px;
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex: 0 1 100%;
+  padding-right: 40px;
+}
+
+.form-group label {
+  font-size: 0.9;
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 1rem;
+}
+
+.form-group:nth-child(2) {
+  padding-right: 0;
+}
+
+.form-group input[type="text"] {
+  cursor: text;
+  color: white;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.form-group input[type="number"] {
+  cursor: text;
+  color: white;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.form-group textarea {
+  cursor: text;
+  color: white;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.form-group input[type="email"] {
+  cursor: text;
+  color: white;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.submitbtn {
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex: auto;
+}
+
+.col button {
+  background-color: #5904c2;
+  color: white;
+  font-weight: 300;
+  font-size: 1.5rem;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.form-group input[type="text"]:focus {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #05f7ff;
+}
+.form-group input[type="number"]:focus {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #05f7ff;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.form-group input[type="email"]:focus {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #05f7ff;
+}
+.form-group textarea:focus {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #05f7ff;
+}
+
+.map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #05f7ff;
+  height: 100vh;
+}
+
+.find {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+  font-size: 3rem;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.googlemap {
+  display: flex;
+  border: 10px solid purple;
+  height: 70%;
+  width: 70%;
+  margin-top: 2%;
+  padding: 2px;
+  border-radius: 15px;
 }

@@ -1,4 +1,3 @@
-
 import First from "../../../images/imgGallery/ProjectTwo/P21.JPG";
 import Second from "../../../images/imgGallery/ProjectTwo/P22.JPG";
 import Third from "../../../images/imgGallery/ProjectTwo/P23.JPG";
@@ -30,5 +29,5 @@ export default [
     title: "Fifth Slide",
     description: "This is the Third slider Image of our carousel",
     urls: Fifth,
-  }
+  },
 ];
