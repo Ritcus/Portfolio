@@ -4,6 +4,5 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 ## How To Run
 - First Git Clone Or Download Project
-- Copy and rename .env.example to .env
 - npm install or yarn add
 - Just Run: npm start
